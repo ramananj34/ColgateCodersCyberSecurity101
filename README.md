@@ -9,3 +9,7 @@
 - To use a virtual machine, first install Oracle Virtual Box:
     https://www.virtualbox.org/wiki/Downloads
     - Choose the appropriate platform package for your device
+    - Follow the instructions on the setup wizard and install
+- Next, you need a Windows ISO, which is a disc image used to install the Windows Operating system:
+    https://www.microsoft.com/en-us/software-download/windows10
+    - Click Accept, then "Create instillation media...", then Next, then "ISO File", choose the location, and install
