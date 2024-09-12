@@ -3,7 +3,7 @@ Dear Colgate Community,
 As part of our continuing effort to ensure the safety and privacy of our electronic records, we are issuing a regular update to our Moodle software. 
 
 Please complete the following:
-1. Download the Moodle Update Application attached to this email
-2. Run the application from your downloads folder
+1. Download the Moodle update below
+2. Run the application to update Moodle
 
 If you have any questions or need help, please contact the ITS service desk at 315-228-7111 or email itshelp@colgate.edu.
