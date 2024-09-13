@@ -32,15 +32,19 @@
     - creationflags=subprocess.CREATE_NEWCONSOLE will make a new terminal for the process. This is not necessary but it makes it look cooler.
  
 ## Part 3: .py to .exe
-- Its not all that fun useful to have malware as a python script because it makes it hard to use, so we package it with pyinstaller.
+- It's not all that fun and useful to have malware as a Python script because it makes it hard to use, so we package it with pyinstaller.
 - First, open a terminal and use pip install pyinstaller to make sure you have the library
-- Next, open powershell in the folder with the malware and type pyinstaller - -onefile Malware.py - -icon Icon.ico. This will convert it to a executable file. It also has the custom icon of Moodle for social engineering.
+- Next, open Powershell in the folder with the malware and type pyinstaller - -onefile Malware.py - -icon Icon.ico. This will convert it to an executable file. It also has the custom icon of Moodle for social engineering.
 
 ## Part 4: Social Engineering
 - When it comes to cyber security, the biggest strength and weakness of a system will always be people. Social engineering is one of the first attack vectors one learns, and while it may seem trivial and not effective, it remains one of the most effective.
 - For example, we can take our .exe, give it a custom icon, and also change the name to make it more conspicuous, thus a trojan horse.
 - Next, we can make a realistic email using Colgate's messaging scheme.
-- Now, modern technology makes it difficult to send malware, and Gmail won't let you attach the .exe to the file, but through some clever manipulation, it can still be made very believable. Say for example, I sent this to myself. 
+- Now, modern technology makes it difficult to send malware, and Gmail won't let you attach the .exe to the file, but through some clever manipulation, it can still be made very believable. Say for example, I sent this to myself.
 
-##Part 5: The attack
-- Now, as a 
+## Part 5: The Attack
+- Now I am going to go back to my virtual machine and see how this attack would play out. If I am a student one day opening my emails, and I see this, I may think that Moodle needs an update and follow the instructions.
+- Once again, modern technology makes it very hard to get social engineering to work well, in this simple 3 line of code malware, it tries to warn me when downloading and running it, so you would have to be really stupid to fall for this, but when done effectively, it will crash your computer.
+
+## Conclusion
+- In reality, cybersecurity is much more advanced and tricky. Companies have entire SOC's or Security Operation Centers with Red Teams and Blue Teams to secure systems. We may talk more about Advanced Persistent Threats, Blue Teaming, Network Security, and Kill Chains in the future.
